@@ -21,7 +21,7 @@ var pod = (days() + 1) * 3;
 var sand = pod * 10 + mission_reward + quest_reward;
 
 var days_required_for_one = Math.ceil((6680 - (sand % 6680)) / 30);
-var days_required_for_all = Math.ceil((6680*8 - sand) / 30);
+var days_required_for_all = Math.ceil((6680*9 - sand) / 30);
 
 document.getElementById("fgotoday").textContent = fgoToday().toLocaleDateString('ja-JP');
 document.getElementById("pods").textContent = pod;
